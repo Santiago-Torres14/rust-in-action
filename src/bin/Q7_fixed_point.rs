@@ -29,5 +29,7 @@ impl From<Q7> for f64 {
 mod test {
     use super::*;
     #[test]
-    fn test() {}
+    fn test() {
+        assert_eq!(<f64 as Into<Q7>>::into(10.), Q7::from(1.));
+    }
 }
