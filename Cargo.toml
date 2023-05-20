@@ -1,8 +1,12 @@
-[package]
-name = "rust-in-action"
+[workspace]
+members = [
+    "chapter/data-in-depth/floating-point-numbers",
+    "chapter/data-in-depth/fixed-point",
+    "chapter/data-in-depth/ch8"
+]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+authors = ["Santiago Torres"]
+description = "Personal notes and examples from book rust in action"

@@ -91,3 +91,4 @@ mod test {
         assert_eq!(1.325625, isolate_mantissa(42.42));
     }
 }
+

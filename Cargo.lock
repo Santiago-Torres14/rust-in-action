@@ -3,5 +3,13 @@
 version = 3
 
 [[package]]
-name = "rust-in-action"
+name = "ch8"
+version = "0.1.0"
+
+[[package]]
+name = "fixed-point"
+version = "0.1.0"
+
+[[package]]
+name = "floating-point-number"
 version = "0.1.0"

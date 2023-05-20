@@ -32,4 +32,23 @@ const BIG_ENDIAN: [u8; 4] = [0xAA, 0xBB, 0xCC, 0xDD];
 const LITTLE_ENDIAN: [u8; 4] = [0xDD, 0xCC, 0xBB, 0xAA];
 ```
 
+## Terms related to CPU emulation
+
+- "An operation (often shortened to “op”) refers to 
+procedures that are supported natively by the system. 
+You might also encounter equivalent phrases such as 
+implemented in hardware or intrinsic operation as you 
+explore further." (Rust in action, Tim)
+- "Registers are containers for data that the CPU 
+accesses directly. For most operations, operands must 
+be moved to registers for an operation to function. 
+For the CHIP-8, each register is a u8 value." (Rust
+in action, Tim)
+- "An opcode is a number that maps to an operation. 
+On the CHIP-8 platform, opcodes include both the 
+operation and the operands’ registers." (Rust in
+action, Tim)
+
+
+
 
