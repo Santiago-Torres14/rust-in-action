@@ -2,7 +2,9 @@
 members = [
     "chapter/data-in-depth/floating-point-numbers",
     "chapter/data-in-depth/fixed-point",
-    "chapter/data-in-depth/ch8"
+    "chapter/data-in-depth/ch8",
+    "chapter/one/testing",
+    "chapter/one/compound-data-struct"
 ]
 
 [workspace.package]
