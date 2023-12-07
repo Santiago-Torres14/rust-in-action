@@ -1,0 +1,5 @@
+[package]
+name = "floating-point-number"
+version.workspace = true
+description.workspace = true
+authors.workspace = true

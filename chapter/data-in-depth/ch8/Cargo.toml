@@ -1,0 +1,5 @@
+[package]
+name = "ch8"
+version.workspace = true
+description.workspace = true
+authors.workspace = true

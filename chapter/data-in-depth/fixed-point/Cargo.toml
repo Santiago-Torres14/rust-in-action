@@ -1,0 +1,5 @@
+[package]
+name = "fixed-point"
+version.workspace = true
+description.workspace = true
+authors.workspace = true
